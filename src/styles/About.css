@@ -1,0 +1,33 @@
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .about-top img {
+    margin-top: 20px;
+    width: 70%;
+  }
+  
+  .about-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-bottom p {
+    width: 80%;
+  }
+  
+  .about .about-bottom h1 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+  
